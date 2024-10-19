@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\pikpik_carrot,shoe,TextureTurtle.2024FallJam</OutputPath>
+  </PropertyGroup>
+</Project>
