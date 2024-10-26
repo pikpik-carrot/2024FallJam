@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Frigid Recluse",
+  "starSystem": "Interstellar Space",
+  "Base": {
+    "surfaceSize": 300,
+    "centerOfSolarSystem": true
+  },
+  "AmbientLights": [
+    {
+      "innerRadius": 0,
+      "outerRadius": 200,
+      "tint": {
+        "r": 211,
+        "b": 190,
+        "g": 238
+      }
+    }
+  ],
+  "Water": {
+    "size": 170,
+    "density": 1.2,
+    "buoyancy": 0.8,
+    "tint": {
+      "r": 0,
+      "b": 0,
+      "g": 0
+    }
+  },
+  "Atmosphere": {
+    "size": 225,
+    "allowShipAutoroll": true,
+    "hasOxygen": true,
+    "fogSize": 270,
+    "fogDensity": 2,
+    "fogTint": {
+      "r": 0,
+      "b": 255,
+      "g": 0
+    }
+  },
+  "Spawn": {
+    "playerSpawnPoints": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -800
+        }
+    ],
+    "shipSpawnPoints": [
+      {
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": -800
+        }
+      }
+    ]
+  },
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "planets/Assets/fr",
+        "path": "Assets/Icelation/FR.prefab"
+      }
+    ]
+  }
+}

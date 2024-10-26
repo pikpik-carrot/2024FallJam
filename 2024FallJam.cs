@@ -1,10 +1,13 @@
 ﻿using OWML.Common;
 using OWML.ModHelper;
 
-namespace 2024FallJam;
-public class 2024FallJam : ModBehaviour
+namespace FallJam;
+public class FallJam : ModBehaviour
 {
-	private void Awake()
+    public static FallJam Instance;
+
+    public static INewHorizons newHorizons;
+    private void Awake()
 {
     // You won't be able to access OWML's mod helper in Awake.
     // So you probably don't want to do anything here.
@@ -14,10 +17,10 @@ public class 2024FallJam : ModBehaviour
 private void Start()
 {
     // Starting here, you'll have access to OWML's mod helper.
-    ModHelper.Console.WriteLine($"My mod {nameof(2024FallJam)} is loaded!", MessageType.Success);
+    ModHelper.Console.WriteLine($"My mod {nameof(FallJam)} is loaded!", MessageType.Success);
 
     // Get the New Horizons API and load configs
-    var newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
+    newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
     newHorizons.LoadConfigs(this);
 
     // Example of accessing game code.

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Sun",
+  "starSystem": "SolarSystem",
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "planets/Assets/warpaway",
+        "path": "Assets/Icelation/WarpAway.prefab"
+      }
+    ]
+  }
+}
