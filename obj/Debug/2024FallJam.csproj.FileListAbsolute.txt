@@ -17,3 +17,5 @@ C:\Users\josh1\source\repos\2024FallJam\obj\Debug\2024FallJam.pdb
 C:\Users\josh1\AppData\Roaming\OuterWildsModManager\OWML\Mods\pikpik_carrot,shoe,TextureTurtle.2024FallJam\planets\FrigidRecluse.json
 C:\Users\josh1\AppData\Roaming\OuterWildsModManager\OWML\Mods\pikpik_carrot,shoe,TextureTurtle.2024FallJam\systems\InterstellarSpace.json
 C:\Users\josh1\AppData\Roaming\OuterWildsModManager\OWML\Mods\pikpik_carrot,shoe,TextureTurtle.2024FallJam\planets\Sun.json
+C:\Users\josh1\AppData\Roaming\OuterWildsModManager\OWML\Mods\pikpik_carrot,shoe,TextureTurtle.2024FallJam\planets\TIMBER_HEARTH.json
+C:\Users\josh1\AppData\Roaming\OuterWildsModManager\OWML\Mods\pikpik_carrot,shoe,TextureTurtle.2024FallJam\dialogue\SLATE_Info.xml

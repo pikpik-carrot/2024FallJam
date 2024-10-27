@@ -1,0 +1,65 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Slate</NameField>
+
+ 	<DialogueNode>
+		<Name>SlateTalk1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hold up a sec!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah yeah yeah, I already know about the location marker in my ship.</Text>
+				<DialogueTarget>SlateTalk2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SlateTalk2</Name>
+		<Dialogue>
+			<Page>What? No, I was going to tell you that Hornfelds found something intresting at the raido tower: a rouge planet! You should check it out.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I've already been to it! Turns out its an invisable, artifical ring-world built by a speices before the Nomai!</Text>
+				<DialogueTarget>SlateTalk3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SlateTalk3</Name>
+		<Dialogue>
+			<Page>Did you finally stomach some sap wine? No, this is an icy wasteland far out of the bounds of the Outer Wilds.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>So it <I>is</I> a new planet then? Why do you want me to go there?</Text>
+				<DialogueTarget>SlateTalk4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SlateTalk4</Name>
+		<Dialogue>
+			<Page>All the others are busy exploring this solar system right now so it might be fun for you to explore something new. Just start flying out I'm sure you could find it.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sounds like a plan!</Text>
+				<DialogueTarget>SlateTalk5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+    <DialogueNode>
+		<Name>SlateTalk5</Name>
+		<Dialogue>
+			<Page>Just be carful though. The planet is quite far out and we wont be able to communicate with you. I'm not sure even the Nomai could reach you out there.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
