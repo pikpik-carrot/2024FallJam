@@ -36,7 +36,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>So it <I>is</I> a new planet then? Why do you want me to go there?</Text>
+				<Text>So it is a new planet then? Why do you want me to go there?</Text>
 				<DialogueTarget>SlateTalk4</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -58,7 +58,7 @@
     <DialogueNode>
 		<Name>SlateTalk5</Name>
 		<Dialogue>
-			<Page>Just be carful though. The planet is quite far out and we wont be able to communicate with you. I'm not sure even the Nomai could reach you out there.</Page>
+			<Page>Just be carful though. The planet is quite far out and we wont be able to communicate with you. I'm not sure even the Nomai could reach you out there. Its about 3 hours away but communication would be lost in just about ten minutes of flight.</Page>
 		</Dialogue>
 	</DialogueNode>
 

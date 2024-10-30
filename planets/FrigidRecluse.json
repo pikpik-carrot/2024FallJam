@@ -3,7 +3,7 @@
   "name": "Frigid Recluse",
   "starSystem": "Interstellar Space",
   "Base": {
-    "surfaceSize": 300,
+    "surfaceSize": 270,
     "centerOfSolarSystem": true
   },
   "AmbientLights": [
@@ -17,10 +17,13 @@
       }
     }
   ],
+  "Lava": {
+    "size": 10
+  },
   "Water": {
     "size": 170,
     "density": 1.2,
-    "buoyancy": 0.8,
+    "buoyancy": 0.95,
     "tint": {
       "r": 0,
       "b": 0,
@@ -30,14 +33,7 @@
   "Atmosphere": {
     "size": 225,
     "allowShipAutoroll": true,
-    "hasOxygen": true,
-    "fogSize": 270,
-    "fogDensity": 2,
-    "fogTint": {
-      "r": 0,
-      "b": 255,
-      "g": 0
-    }
+    "hasOxygen": true
   },
   "Spawn": {
     "playerSpawnPoints": [
@@ -45,7 +41,7 @@
         "position": {
           "x": 0,
           "y": 0,
-          "z": -800
+          "z": -1500
         }
       }
     ],
@@ -53,8 +49,8 @@
       {
         "position": {
           "x": 0,
-          "y": 0,
-          "z": -800
+          "y": 5,
+          "z": -1500
         }
       }
     ]

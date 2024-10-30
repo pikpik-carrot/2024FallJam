@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2024 pikpik_carrot, shoe, Texture Turtle")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39d89a3af7d47af08308962b787d8bd17fb11fd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e632df892763a5619adcd9afa7e3da9675a1e71d")]
 [assembly: System.Reflection.AssemblyProductAttribute("2024FallJam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2024FallJam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
