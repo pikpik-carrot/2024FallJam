@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "2024FallJam.dll",
-  "author": "pikpik_carrot, shoe, Texture Turtle",
-  "name": "2024FallJam",
+  "author": "pikpik_carrot, shoe, Texture Turtle, Toxic",
+  "name": "Iceolation",
   "uniqueName": "pikpik_carrot,shoe,TextureTurtle.2024FallJam",
   "version": "0.1.0",
   "owmlVersion": "2.9.6",
-  "dependencies": ["xen.NewHorizons"]
+  "dependencies": [ "xen.NewHorizons" ]
 }

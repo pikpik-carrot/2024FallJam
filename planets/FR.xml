@@ -1,0 +1,49 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+				  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>FR</ID>
+	<Entry>
+		<ID>signal_mural_no_mark</ID>
+		<Name>Eye Call Mural</Name>
+		<IgnoreMoreToExplore/>
+		<ExploreFact>
+			<ID>Mural1Fact</ID>
+			<Text>I found a mural depicting a new species (that I will name the Hermets) Hearing a strange noise from above the ice.</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>drill_mural</ID>
+		<Name>Drill Mural</Name>
+		<IgnoreMoreToExplore/>
+		<ExploreFact>
+			<ID>Mural2Fact</ID>
+			<Text>I found a mural depicting the Hermets drilling to break the ice above.</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>eyes_mural</ID>
+		<Name>The Million Eyes Mural</Name>
+		<IgnoreMoreToExplore/>
+		<ExploreFact>
+			<ID>Mural3Fact</ID>
+			<Text>I found a mural depicting the Hermets looking up at the stars for the first time and worshiping them.</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>silence_mural</ID>
+		<Name>Eye Call Fade Mural</Name>
+		<IgnoreMoreToExplore/>
+		<ExploreFact>
+			<ID>Mural4Fact</ID>
+			<Text>I found a mural depicting the Hermets becomeing fearful at the signal disapering.</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<ID>spaceship_mural</ID>
+		<Name>Spaceship Mural</Name>
+		<IgnoreMoreToExplore/>
+		<ExploreFact>
+			<ID>Mural5Fact</ID>
+			<Text>I found a mural depicting the Hermets building a ship to fly to where the singal was comming from.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

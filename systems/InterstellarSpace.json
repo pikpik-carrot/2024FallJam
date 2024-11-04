@@ -1,10 +1,47 @@
 {
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
   "respawnHere": true,
-  "startHere": true,
+  //"startHere": true,
   "destroyStockPlanets": true,
   "name": "Interstellar Space",
   "canEnterViaWarpDrive": false,
   "enableTimeLoop": true,
-  "canExitViaWarpDrive": false
+  "canExitViaWarpDrive": false,
+  "entryPositions": [
+    {
+      "id": "signal_mural_no_mark",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "drill_mural",
+      "position": {
+        "x": 200,
+        "y": 0
+      }
+    },
+    {
+      "id": "eyes_mural",
+      "position": {
+        "x": 400,
+        "y": 0
+      }
+    },
+    {
+      "id": "silence_mural",
+      "position": {
+        "x": 600,
+        "y": 0
+      }
+    },
+    {
+      "id": "spaceship_mural",
+      "position": {
+        "x": 800,
+        "y": 0
+      }
+    }
+  ]
 }

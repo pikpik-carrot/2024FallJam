@@ -63,5 +63,9 @@
         "path": "Assets/Icelation/FR.prefab"
       }
     ]
+  },
+  "ShipLog": {
+    "xmlFile": "planets/FR.xml",
+    "spriteFolder": "planets/Assets"
   }
 }
